@@ -1,0 +1,19 @@
+package br.com.CrudJava.enums;
+
+public enum Category {
+	BACKEND("back-end"), FRONTEND("front-end");
+
+	private String value;
+
+	private Category(String value) {
+		this.value = value;
+	}
+
+	public String getValue() {
+		return value;
+	}
+	
+	public String toString() {
+		return value;
+	}
+}
